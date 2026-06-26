@@ -1,6 +1,8 @@
-array= [5,0,-1,-8]
+# Binery Sort for desending order
+
+array= [8,5,3,0,-1,-7,-8,-9]
 n=len(array)
-x = -8
+x = 8
 left = 0
 right = n-1
 count = 0
@@ -10,7 +12,7 @@ while True:
     count = count+1
     print("Step:", count)
     if array[mid] == x:
-        print("Found at ",mid)
+        print("Found")
         break
     if x > array[mid]:
         right = mid -1
