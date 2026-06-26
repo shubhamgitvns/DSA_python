@@ -1,8 +1,8 @@
-# Binery Sort for desending order
+# Binery Sort for assending order
 
-array= [8,5,3,0,-1,-7,-8,-9]
+array= [30,32,40,66,65,80,90,96]
 n=len(array)
-x = 8
+x = 40
 left = 0
 right = n-1
 count = 0
@@ -14,7 +14,7 @@ while True:
     if array[mid] == x:
         print("Found")
         break
-    if x > array[mid]:
+    if x < array[mid]:
         right = mid -1
     else:
         left = mid + 1
