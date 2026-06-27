@@ -13,8 +13,6 @@ Student['city']='Varanasi'
 # Uupdate the data
 Student['age']=25
 
-print(Student)
-
 # Access the data
 
 print(Student['name'])
@@ -23,10 +21,18 @@ print(Student['name'])
 
 print(Student.get('age'))
 
+# Pop the data
+
+Student.pop('age')
+print(Student)
+
 # Delete the data 
 
 del Student['city']
 print(Student)
+
+# Acces the key 
+print(Student.keys())
 
 # clear the dist
 Student.clear()
