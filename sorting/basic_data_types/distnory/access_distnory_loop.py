@@ -5,6 +5,7 @@ Student ={
     'age': 22,
     'city': 'varanasi'
 }
+
 # Print key using loop
 for key in Student:
     print(key)
@@ -16,4 +17,4 @@ for value in Student.values():
 for key, value in Student.items():
     print(key,value)
 
-    
+
