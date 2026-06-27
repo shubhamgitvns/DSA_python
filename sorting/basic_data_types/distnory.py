@@ -2,38 +2,16 @@
 
 Student ={
     'name': 'shubham',
-    'age': 22
+    'age': 22,
+    'city': 'varanasi'
 }
 print(type(Student))
 
-# Add new data 
-
-Student['city']='Varanasi'
-
-# Uupdate the data
-Student['age']=25
-
-# Access the data
-
-print(Student['name'])
-
-# Access the data usning get()
-
-print(Student.get('age'))
-
-# Pop the data
-
-Student.pop('age')
-print(Student)
-
-# Delete the data 
-
-del Student['city']
-print(Student)
-
-# Acces the key 
+# Print the keys in dist
 print(Student.keys())
 
-# clear the dist
-Student.clear()
-print(Student)
+# Print the values in dist
+print(Student.values())
+
+# Print the items in dist
+print(Student.items())
