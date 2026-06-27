@@ -5,13 +5,15 @@ Student ={
     'age': 22,
     'city': 'varanasi'
 }
-print(type(Student))
+# Print key using loop
+for key in Student:
+    print(key)
 
-# Print the keys in dist
-print(Student.keys())
+# Print value using loop 
+for value in Student.values():
+    print(value)
 
-# Print the values in dist
-print(Student.values())
+for key, value in Student.items():
+    print(key,value)
 
-# Print the items in dist
-print(Student.items())
+    
