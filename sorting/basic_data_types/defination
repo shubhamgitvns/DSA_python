@@ -1,0 +1,4 @@
+Dictionary is a mutable, ordered collection in Python that stores data in the form of unique key-value pairs.
+ Values are accessed using keys instead of indexes, making lookups fast and efficient.
+
+ List - List is a mutable, order collection of different data types values which store in single variable. 
